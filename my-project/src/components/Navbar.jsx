@@ -12,11 +12,10 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
-            src="https://placehold.co/40x40/FFD700/000?text=LL"
+            src="src/assets/Logo.svg"
             alt="Little Lemon Logo"
             className="h-10 mr-2 rounded-full"
           />
-          <span className="text-xl font-bold text-yellow-600">LITTLE LEMON</span>
         </Link>
 
         {/* Desktop Navigation */}

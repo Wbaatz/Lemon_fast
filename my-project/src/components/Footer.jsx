@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Footer Logo */}
           <div className="flex justify-center md:justify-start">
-            <img src="https://placehold.co/100x100/FFD700/000?text=LL" alt="Little Lemon Footer Logo" className="h-24 rounded-lg" />
+            <img   src="src/assets/Logo.svg" alt="Little Lemon Footer Logo" className="h-24 rounded-lg" />
           </div>
 
           {/* Doormat Navigation */}

@@ -1,5 +1,7 @@
 import React from 'react'
 import MenuItem from './MenuItem'
+import lemon from '../assets/lemon dessert.jpg'
+import greekSalad from '../assets/greek salad.jpg'
 const Menu = () => {
   return (
      <section className="py-16 px-4 md:px-8 lg:px-16">
@@ -14,21 +16,21 @@ const Menu = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Greek Salad */}
           <MenuItem
-            imageSrc="https://placehold.co/300x200/FFD700/000?text=Greek+Salad"
+            imageSrc={greekSalad}
             title="Greek salad"
             price="$12.99"
             description="The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."
           />
           {/* Bruschetta */}
           <MenuItem
-            imageSrc="https://placehold.co/300x200/FFD700/000?text=Bruschetta"
+            imageSrc="src/assets/bruchetta.svg"
             title="Bruschetta"
             price="$5.99"
             description="Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil."
           />
           {/* Lemon Dessert */}
           <MenuItem
-            imageSrc="https://placehold.co/300x200/FFD700/000?text=Lemon+Dessert"
+            imageSrc={lemon}
             title="Lemon Dessert"
             price="$5.00"
             description="This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined."

@@ -1,5 +1,6 @@
 import React from 'react'
-
+import A from'../assets/Mario and Adrian A.jpg'
+import B from'../assets/Mario and Adrian B.jpg';
 const AboutSection = () => {
   return (
     <section className="py-16 px-4 md:px-8 lg:px-16 flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12">
@@ -16,13 +17,13 @@ const AboutSection = () => {
         </div>
         <div className="flex-shrink-0 flex flex-col space-y-4">
           <img
-            src="https://placehold.co/200x200/FFD700/000?text=About+Image+1"
+            src={A}
             alt="About Little Lemon 1"
             className="w-48 h-48 object-cover rounded-lg shadow-xl"
             onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x200/FFD700/000?text=About+Image+1'; }}
           />
           <img
-            src="https://placehold.co/200x200/FFD700/000?text=About+Image+2"
+            src={B}
             alt="About Little Lemon 2"
             className="w-48 h-48 object-cover rounded-lg shadow-xl self-end"
             onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x200/FFD700/000?text=About+Image+2'; }}
