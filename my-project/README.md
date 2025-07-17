@@ -1,6 +1,12 @@
 # Little Lemon Restaurant - React + Vite
 
 A modern, responsive web application for a Mediterranean restaurant, built with React, Vite, and Tailwind CSS.
+![Homepage Screenshot](./Images/img1.png)
+![Homepage Screenshot](./Images/img2.png)
+![Homepage Screenshot](./Images/img3.png)
+![Homepage Screenshot](./Images/img4.png)
+![Homepage Screenshot](./Images/img5.png)
+![Homepage Screenshot](./Images/img6.png)
 
 ## Table of Contents
 - [Overview](#overview)
